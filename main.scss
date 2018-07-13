@@ -1,0 +1,19 @@
+#pokedex {
+	width: 750px;
+	margin: 50px auto 0 auto;
+}
+
+#left-flap {
+	width: 400px;
+	height: 500px;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+#right-flap {
+	width: 350px;
+	height: 500px;
+	float: left;
+	position: relative;
+}
