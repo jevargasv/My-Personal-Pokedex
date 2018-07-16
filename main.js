@@ -13,18 +13,21 @@ class Trainer {
     constructor() {
         this.pokemon = [];
     
-    get(name);
-        for (let i = 0; i < this.pokemon.length; i++) {
-            if (this.pokemon[i].name === name) {
-                return this.pokemon[i];
+        get(name) {
+            for (let i = 0; i < this.pokemon.length; i++) {
+                if (this.pokemon[i].name === name) {
+                }    return this.pokemon[i];
             }
         }
+    
 
-    add(pokemonObject);
-        this.pokemon.push(pokemonObject);
+        add(pokemonObject) {
+            this.pokemon.push(pokemonObject);
+        }
 
-    all();
-        return this.pokemon;
+        all() {
+            return this.pokemon;
+        }
     }
 }        
 
