@@ -41,4 +41,5 @@ axios.get("https://pokeapi.co/api/v2/pokemon-form/183").then((response) => {
     let abilities = document.getElementById('abilities');
 
     let marill = new Pokemon()
-})
+
+    console.log(pokemon)
