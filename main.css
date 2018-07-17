@@ -185,12 +185,27 @@
   margin-left: 50px;
 }
 
+#dewgong {
+  padding-top: -2px;
+  padding-left: 5px;
+}
+
+#starmie {
+  padding-top: 7px;
+  padding-left: 4px;
+}
+
+#marill {
+  padding-top: 50px;
+  padding-left: 6px;
+}
+
 #speaker1 {
   position: relative;
   width: 75px;
   height: 25px;
   margin-left: 152px;
-  top: 166px;
+  top: 215px;
 }
 
 #speaker2 {
@@ -215,7 +230,7 @@
   width: 100px;
   background-color: black;
   position: relative;
-  top: 120px;
+  top: 65px;
   left: 138px;
   border-radius: 100px;
   -webkit-border-radius: 100px;
@@ -343,10 +358,13 @@
   -webkit-box-shadow: 0 0 20px darkslategray inset;
 }
 
-p {
-  font-size: 18px;
+#text-container p{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
   font-family: 'Gill Sans';
   color: #222;
+  padding: 6px;
 }
 
 /*# sourceMappingURL=main.css.map */
