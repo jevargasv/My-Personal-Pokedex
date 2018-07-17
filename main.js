@@ -1,11 +1,12 @@
 class Pokemon {
-    constructor(id, name, hp, attack, defense) {
+    constructor(image, id, name, hp, attack, defense, abilities) {
+        this.image = image;
         this.id = id;
         this.name = name;
-        this.hp = parseInt(hp);
-        this.attack = parseInt(attack);
-        this.defense = parseInt(defense);
-        this.abilities = [''];
+        this.hp = hp;
+        this.attack = attack;
+        this.defense = defense;
+        this.abilities = abilities;
     }
 }
 
@@ -30,4 +31,4 @@ class Trainer {
     
 }        
 
-letMadameZapphir = new Trainer();
+letMadameZapphir = new Trainer('Madame Zapphir');
