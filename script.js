@@ -2,13 +2,13 @@
 
 axios.get("https://pokeapi.co/api/v2/pokemon-form/87").then((response) => {
     let data = response.data
-
-    let id = document.getElementById('id')
-    let name = document.getElementById('name')
-    let hp = document.getElementById('hp')
-    let attack = document.getElementById('attack')
-    let defense = document.getElementById('defense')
-    let abilities = document.getElementById('abilities')
+    let image = document.getElementsByClassName('pokemon');
+    let id = document.getElementById('id');
+    let name = document.getElementById('name');
+    let hp = document.getElementById('hp');
+    let attack = document.getElementById('attack');
+    let defense = document.getElementById('defense');
+    let abilities = document.getElementById('abilities');
 
     let dewgong = new Pokemon()
 })
@@ -17,13 +17,13 @@ axios.get("https://pokeapi.co/api/v2/pokemon-form/87").then((response) => {
 
 axios.get("https://pokeapi.co/api/v2/pokemon-form/121").then((response) => {
     let data = response.data
-
-    let id = document.getElementById('id')
-    let name = document.getElementById('name')
-    let hp = document.getElementById('hp')
-    let attack = document.getElementById('attack')
-    let defense = document.getElementById('defense')
-    let abilities = document.getElementById('abilities')
+    let image = document.getElementsByClassName('pokemon');
+    let id = document.getElementById('id');
+    let name = document.getElementById('name');
+    let hp = document.getElementById('hp');
+    let attack = document.getElementById('attack');
+    let defense = document.getElementById('defense');
+    let abilities = document.getElementById('abilities');
 
     let starmie = new Pokemon()
 })
@@ -32,13 +32,13 @@ axios.get("https://pokeapi.co/api/v2/pokemon-form/121").then((response) => {
 
 axios.get("https://pokeapi.co/api/v2/pokemon-form/183").then((response) => {
     let data = response.data
-
-    let id = document.getElementById('id')
-    let name = document.getElementById('name')
-    let hp = document.getElementById('hp')
-    let attack = document.getElementById('attack')
-    let defense = document.getElementById('defense')
-    let abilities = document.getElementById('abilities')
+    let image = document.getElementsByClassName('pokemon');
+    let id = document.getElementById('id');
+    let name = document.getElementById('name');
+    let hp = document.getElementById('hp');
+    let attack = document.getElementById('attack');
+    let defense = document.getElementById('defense');
+    let abilities = document.getElementById('abilities');
 
     let marill = new Pokemon()
 })
