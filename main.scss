@@ -11,7 +11,8 @@ $z-index {
 }
 
 #pokedex {
-  @extend %pokedex; 
+@extend %pokedex; 
+}
 
   #background-curve {
     @extend %background-curve;

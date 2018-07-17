@@ -12,7 +12,7 @@ class Pokemon {
 class Trainer {
     constructor() {
         this.pokemon = [];
-    
+    }
         get(name) {
             for (let i = 0; i < this.pokemon.length; i++) {
                 if (this.pokemon[i].name === name) {
@@ -20,7 +20,6 @@ class Trainer {
             }
         }
     
-
         add(pokemonObject) {
             this.pokemon.push(pokemonObject);
         }
@@ -28,7 +27,7 @@ class Trainer {
         all() {
             return this.pokemon;
         }
-    }
+    
 }        
 
 letMadameZapphir = new Trainer();
