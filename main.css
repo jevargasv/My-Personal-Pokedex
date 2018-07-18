@@ -1,40 +1,370 @@
-/*
-Error: Invalid CSS after "$position ": expected ":", was "{"
-        on line 5 of /Users/nycda/WDF/w04/d15/Classwork/second_project/main.scss
+#pokedex {
+  width: 750px;
+  margin: 80px 80px; 
+}
 
-1: @import 'colors';
-2: @import 'placeholders';
-3: @import 'mixins';
-4: 
-5: $position {
-6:   position: relative;
-7: }
-8: 
-9: $z-index {
-10:   z-index: 1;
+#background-curve {
+  display: block;
+}
 
-Backtrace:
-/Users/nycda/WDF/w04/d15/Classwork/second_project/main.scss:5
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:640:in `variable'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
-/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/F0405404-9BB3-4512-A675-ED13A473E7DF/d/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"$position \": expected \":\", was \"{\"\A         on line 5 of /Users/nycda/WDF/w04/d15/Classwork/second_project/main.scss\A \A 1: @import 'colors';\A 2: @import 'placeholders';\A 3: @import 'mixins';\A 4: \A 5: $position {\A 6:   position: relative;\A 7: }\A 8: \A 9: $z-index {\A 10:   z-index: 1;"; }
+#left-flap {
+  width: 400px;
+  height: 500px;
+  float: left;
+  position: relative;
+  z-index: 1; 
+}
+
+#right-flap {
+  width: 350px;
+  height: 500px;
+  float: left;
+  position: relative; 
+}
+
+#left-curve1 {
+  width: 210px;
+  height: 85px;
+  background-color: navy;
+  float: left;
+  padding: 15px 0 0 15px;
+  position: relative;
+  top: -1360;
+  right: 400;
+  box-shadow: -10px 9px midnightblue;
+  -webkit-box-shadow: -10px 9px midnightblue;
+  border-bottom-right-radius: 85px 60px;
+  -webkit-border-bottom-right-radius: 85px 60px;
+  border-top-left-radius: 30px;
+  -webkit-border-top-left-radius: 30px;
+}
+
+#left-backgroundcurve1 {
+  width: 400px;
+  height: 80px;
+  background-color: navy;
+  box-shadow: -10px 9px midnightblue;
+  -webkit-box-shadow: -10px 9px midnightblue;
+  border-top-left-radius: 30px;
+  -webkit-border-top-left-radius: 30px;
+}
+
+#left-curve2 {
+  width: 216px;
+  height: 80px;
+  background-color: mediumblue;
+  float: right;
+  position: relative;
+  bottom: 1402;
+  right: 350;
+  border-top-left-radius: 85px 60px;
+  -webkit-border-top-left-radius: 85px 60px;
+}
+
+#left-backgroundcurve2 {
+  width: 400px;
+  height: 600px;
+  background-color: mediumblue;
+  box-shadow: -10px 9px midnightblue;
+  -webkit-box-shadow: -10px 9px midnightblue;
+  border-bottom-left-radius: 30px;
+  -webkit-border-bottom-left-radius: 30px;
+}
+
+#buttonGlass {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border: 5px solid white;
+  float: left;
+  box-shadow: 0 0 10px midnightblue;
+  -webkit-box-shadow: 0 0 10px midnightblue;
+  background: radial-gradient(#05fbfb, #29abe3);
+  background: -webkit-radial-gradient(#05fbfb, #29abe3);
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+}
+
+#reflect {
+  width: 30px;
+  height: 18px;
+  margin: 3px 0 0 15px;
+  background: white;
+  opacity: 0.6;
+  border-radius: 15px 9px;
+  -webkit-border-radius: 15px 9px;
+}
+
+#miniButtonGlass1 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 25px;
+  float: left;
+  box-shadow: 0 0 10px midnightblue;
+  -webkit-box-shadow: 0 0 10px midnightblue;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  background: radial-gradient(#fb7b7b, #fb0505);
+  background: -webkit-radial-gradient(#fb7b7b, #fb0505);
+}
+
+#miniButtonGlass2 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 25px;
+  float: left;
+  box-shadow: 0 0 10px midnightblue;
+  -webkit-box-shadow: 0 0 10px midnightblue;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  background: radial-gradient(#fbfb9b, #fbfb05);
+  background: -webkit-radial-gradient(#fbfb9b, #fbfb05);
+}
+
+#miniButtonGlass3 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 25px;
+  float: left;
+  box-shadow: 0 0 10px midnightblue;
+  -webkit-box-shadow: 0 0 10px midnightblue;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  background: radial-gradient(#b0fb7b, #50fb05);
+  background: -webkit-radial-gradient(#b0fb7b, #50fb05);
+}
+
+#hinge {
+  width: 30px;
+  height: 622px;
+  margin-top: 0;
+  float: right;
+  background: linear-gradient(left, navy 0%, mediumblue 50%, navy 100%);
+  background: -webkit-linear-gradient(left, navy 0%, mediumblue 50%, navy 100%);
+}
+
+#hinge1 {
+  height: 124px;
+  background-color: navy;
+  opacity: 0.3;
+  margin-top: 50px;
+  margin-bottom: 262px;
+  border-top: 2px solid midnightblue;
+  border-bottom: 2px solid midnightblue; 
+}
+
+#hinge2 {
+  height: 124px;
+  background-color: navy;
+  opacity: 0.3;
+  border-top: 2px solid midnightblue;
+  border-bottom: 2px solid midnightblue; 
+}
+
+#image-wrapper {
+  height: 300px;
+  width: 300px;
+  margin-top: -1208;
+  margin-left: 32;
+  background-color: white;
+  border: 3px solid #494949;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  box-shadow: 0 0 5px midnightblue;
+  -webkit-box-shadow: 0 0 5px midnightblue;
+}
+
+#pokemon img {
+  display: block;
+  height: auto;
+  width: 35%;
+  margin-top: -280px;
+  margin-left: 50px;
+}
+
+#dewgong {
+  padding-top: -2px;
+  padding-left: 5px;
+}
+
+#starmie {
+  padding-top: 7px;
+  padding-left: 4px;
+}
+
+#marill {
+  padding-top: 50px;
+  padding-left: 6px;
+}
+
+#speaker1 {
+  position: relative;
+  width: 75px;
+  height: 25px;
+  margin-left: 152px;
+  top: 215px;
+}
+
+#speaker2 {
+  position: relative;
+  width: 75px;
+  height: 25px;
+  left: 159px;
+  top: -1360px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #222;
+  border-radius: 60%;
+  -webkit-border-radius: 60%;
+  display: inline-block;
+}
+
+#main-button {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  position: relative;
+  top: 65px;
+  left: 138px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  background: linear-gradient(top, #9da6b6 0%, #767881 80%);
+  background: -webkit-linear-gradient(top, #9da6b6 0%, #767881 80%);
+  box-shadow: -3px 2px #222;
+  -webkit-box-shadow: -3px 2px #222;
+}
+
+#upArrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgb(63, 62, 62);
+  position: relative;
+  top: 9px;
+  left: 41px; 
+}
+
+#downArrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgb(63, 62, 62);
+  position: relative;
+  bottom: -70px;
+  left: 40px; 
+}
+
+#leftArrow {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 10px solid rgb(63, 62, 62);
+  border-bottom: 10px solid transparent;
+  position: relative;
+  top: 19px;
+  left: 9px; 
+}
+
+#rightArrow {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 10px solid rgb(63, 62, 62);
+  border-bottom: 10px solid transparent;
+  position: relative;
+  top: -1px;
+  right: -82px; 
+}
+
+#homeCircle {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: -33px;
+  left: 28px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  background: radial-gradient(rgb(63, 62, 62), #222);
+  background: -webkit-radial-gradient(rgb(63, 62, 62), #222);
+}
+
+#right-curve1 {
+  width: 216px;
+  height: 80px;
+  background-color: mediumblue;
+  float: right;
+  position: relative;
+  top: -1482;
+  left: -134;
+  border-top-right-radius: 85px 60px;
+  -webkit-border-right-left-radius: 85px 60px;
+}
+
+#right-backgroundcurve1 {
+  width: 360px;
+  height: 80px;
+  margin-left: 400px;
+  top: 0;
+  position: relative;
+  background-color: white;
+  clear: both;
+}
+
+#right-curve2 {
+  width: 216px;
+  height: 100px;
+  background-color: white;
+  float: left;
+  position: relative;
+  top: -1611;
+  right: -184;
+  border-bottom-left-radius: 85px 60px;
+  -webkit-border-bottom-left-radius: 85px 60px;
+}
+
+#right-backgroundcurve2 {
+  width: 400px;
+  height: 600px;
+  position: relative;
+  top: -680;
+  left: 400;
+  background-color: mediumblue;
+  border-bottom-right-radius: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  box-shadow: -10px 9px midnightblue;
+  -webkit-box-shadow: -10px 9px midnightblue;
+}
+
+#statistics {
+  height: 430px;
+  width: 300px;
+  padding: 10px;
+  background-color: lightgray;
+  z-index: 1;
+  position: relative;
+  top: -1388;
+  left: 40px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  box-shadow: 0 0 20px darkslategray inset;
+  -webkit-box-shadow: 0 0 20px darkslategray inset;
+}
+
+#text-container p{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Gill Sans';
+  color: #222;
+  padding: 6px;
+}
+
+/*# sourceMappingURL=main.css.map */
