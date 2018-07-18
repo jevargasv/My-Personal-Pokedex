@@ -91,7 +91,7 @@ $(document).ready(function() {
         MadameZapphir.add(marill);
     });
 
-        let image = document.querySelector('#img');
+        let pokemon = document.querySelector('.pokemon');
         let id = document.querySelector('#id');
         let name = document.querySelector('#name');
         let hp = document.querySelector('#hp');
@@ -101,18 +101,39 @@ $(document).ready(function() {
         let abilityTwo = document.querySelector('#two');
         let abilityThree = document.querySelector('#three');
         let abilityFour = document.querySelector('#four');
+        let upArrow = document.querySelector('#upArrow');
+        let downArrow = document.querySelector('#downArrow');
+        let leftArrow = document.querySelector('#leftArrow');
+        let rightArrow = document.querySelector('#rightArrow');
+        let homeCircle = document.querySelector('#homeCircle');
 
-        id.innerHTML = "#" + data.id;
-        name.innerHTML = data.name;
-        hp.innerHTML = "HP: " + data.stats[i].base_stat,
-        attack.innerHTML = "Attack" + data.stats[i].base_stat,
-        defense.innerHTML = "Defense" + data.stats[i].base_stat,
-        abilityOne.innerHTML = data.abilities[i].ability.name,
-        abilityTwo.innerHTML = data.abilities[i].ability.name,
-        abilityThree.innerHTML = data.abilities[i].ability.name,
-        abilityFour.innerHTML = data.moves[i].move.name,
+        id.html ("#" + data.id);
+        name.html (data.name);
+        hp.html ("HP: " + data.stats[i].base_stat),
+        attack.html ("Attack" + data.stats[i].base_stat),
+        defense.html ("Defense" + data.stats[i].base_stat),
+        abilityOne.html (data.abilities[i].ability.name),
+        abilityTwo.html (data.abilities[i].ability.name),
+        abilityThree.html (data.abilities[i].ability.name),
+        abilityFour.html (data.moves[i].move.name),
 
-    }).catch(error) => {
+        $(document).ready(function() {
+    get_random_pokemon('.pokemon'); {
+        var a = (parseInt(Math.random() * 3)) + 1; 
+        $(".pokemon #img.block").removeClass("block").addClass("none");
+        $(".pokemon:eq(" + a + ")img").removeClass("none").addClass("block");
+    }
+    setInterval(function() {
+        get_random_pokemon();
+    }, 500);
+});
+
+
+
+
+
+
+    }).catch((error) => {
         console.log(ERROR)
 });
 
