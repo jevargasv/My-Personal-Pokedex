@@ -2,7 +2,42 @@
 
 $(document).ready(function() {
 
-    //Pokemon #1: Dewgong
+    class Pokemon {
+        constructor(image, id, name, hp, attack, defense, abilities) {
+            this.image = image;
+            this.id = id;
+            this.name = name;
+            this.hp = hp;
+            this.attack = attack;
+            this.defense = defense;
+            this.abilities = abilities;
+        }
+    }
+    
+    class Trainer {
+        constructor() {
+            this.pokemon = [];
+        }
+            get(name) {
+                for (let i = 0; i < this.pokemon.length; i++) {
+                    if (this.pokemon[i].name === name) {
+                    }    return this.pokemon[i];
+                }
+            }
+        
+            add(pokemonObject) {
+                this.pokemon.push(pokemonObject);
+            }
+    
+            all() {
+                return this.pokemon;
+            }
+        
+    }        
+    
+    letMadameZapphir = new Trainer('Madame Zapphir');
+    
+//Pokemon #1: Dewgong
     axios.get("https://pokeapi.co/api/v2/pokemon-form/87").then((response) => {
         let data = response.data;
 
@@ -17,6 +52,7 @@ $(document).ready(function() {
             data.abilities[2].ability.name,
             data.moves[2].move.name,
         )
+        MadameZapphir.add(dewgong);
     });
 
     //Pokemon #2: Starmie
@@ -34,6 +70,7 @@ $(document).ready(function() {
             data.abilities[2].ability.name,
             data.moves[3].move.name,
         )
+        MadameZapphir.add(starmie);
     });
 
     //Pokemon #3: Marill
@@ -51,6 +88,7 @@ $(document).ready(function() {
             data.abilities[2].ability.name,
             data.moves[4].move.name,
         )
+        MadameZapphir.add(marill);
     });
 
         let image = document.querySelector('#img');
