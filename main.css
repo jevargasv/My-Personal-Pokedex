@@ -1,26 +1,22 @@
 #pokedex {
   width: 750px;
-  margin: 80px 80px; 
-}
+  margin: 80px 80px; }
 
 #background-curve {
-  display: block;
-}
+  display: block; }
 
 #left-flap {
   width: 400px;
   height: 500px;
   float: left;
   position: relative;
-  z-index: 1; 
-}
+  z-index: 1; }
 
 #right-flap {
   width: 350px;
   height: 500px;
   float: left;
-  position: relative; 
-}
+  position: relative; }
 
 #left-curve1 {
   width: 210px;
@@ -36,8 +32,7 @@
   border-bottom-right-radius: 85px 60px;
   -webkit-border-bottom-right-radius: 85px 60px;
   border-top-left-radius: 30px;
-  -webkit-border-top-left-radius: 30px;
-}
+  -webkit-border-top-left-radius: 30px; }
 
 #left-backgroundcurve1 {
   width: 400px;
@@ -46,8 +41,7 @@
   box-shadow: -10px 9px midnightblue;
   -webkit-box-shadow: -10px 9px midnightblue;
   border-top-left-radius: 30px;
-  -webkit-border-top-left-radius: 30px;
-}
+  -webkit-border-top-left-radius: 30px; }
 
 #left-curve2 {
   width: 216px;
@@ -58,8 +52,7 @@
   bottom: 1402;
   right: 350;
   border-top-left-radius: 85px 60px;
-  -webkit-border-top-left-radius: 85px 60px;
-}
+  -webkit-border-top-left-radius: 85px 60px; }
 
 #left-backgroundcurve2 {
   width: 400px;
@@ -68,8 +61,7 @@
   box-shadow: -10px 9px midnightblue;
   -webkit-box-shadow: -10px 9px midnightblue;
   border-bottom-left-radius: 30px;
-  -webkit-border-bottom-left-radius: 30px;
-}
+  -webkit-border-bottom-left-radius: 30px; }
 
 #buttonGlass {
   width: 60px;
@@ -82,8 +74,7 @@
   background: radial-gradient(#05fbfb, #29abe3);
   background: -webkit-radial-gradient(#05fbfb, #29abe3);
   border-radius: 35px;
-  -webkit-border-radius: 35px;
-}
+  -webkit-border-radius: 35px; }
 
 #reflect {
   width: 30px;
@@ -92,8 +83,7 @@
   background: white;
   opacity: 0.6;
   border-radius: 15px 9px;
-  -webkit-border-radius: 15px 9px;
-}
+  -webkit-border-radius: 15px 9px; }
 
 #miniButtonGlass1 {
   width: 20px;
@@ -106,8 +96,7 @@
   border-radius: 20px;
   -webkit-border-radius: 20px;
   background: radial-gradient(#fb7b7b, #fb0505);
-  background: -webkit-radial-gradient(#fb7b7b, #fb0505);
-}
+  background: -webkit-radial-gradient(#fb7b7b, #fb0505); }
 
 #miniButtonGlass2 {
   width: 20px;
@@ -120,8 +109,7 @@
   border-radius: 20px;
   -webkit-border-radius: 20px;
   background: radial-gradient(#fbfb9b, #fbfb05);
-  background: -webkit-radial-gradient(#fbfb9b, #fbfb05);
-}
+  background: -webkit-radial-gradient(#fbfb9b, #fbfb05); }
 
 #miniButtonGlass3 {
   width: 20px;
@@ -134,8 +122,7 @@
   border-radius: 20px;
   -webkit-border-radius: 20px;
   background: radial-gradient(#b0fb7b, #50fb05);
-  background: -webkit-radial-gradient(#b0fb7b, #50fb05);
-}
+  background: -webkit-radial-gradient(#b0fb7b, #50fb05); }
 
 #hinge {
   width: 30px;
@@ -143,8 +130,7 @@
   margin-top: 0;
   float: right;
   background: linear-gradient(left, navy 0%, mediumblue 50%, navy 100%);
-  background: -webkit-linear-gradient(left, navy 0%, mediumblue 50%, navy 100%);
-}
+  background: -webkit-linear-gradient(left, navy 0%, mediumblue 50%, navy 100%); }
 
 #hinge1 {
   height: 124px;
@@ -153,16 +139,14 @@
   margin-top: 50px;
   margin-bottom: 262px;
   border-top: 2px solid midnightblue;
-  border-bottom: 2px solid midnightblue; 
-}
+  border-bottom: 2px solid midnightblue; }
 
 #hinge2 {
   height: 124px;
   background-color: navy;
   opacity: 0.3;
   border-top: 2px solid midnightblue;
-  border-bottom: 2px solid midnightblue; 
-}
+  border-bottom: 2px solid midnightblue; }
 
 #image-wrapper {
   height: 300px;
@@ -174,47 +158,40 @@
   border-radius: 15px;
   -webkit-border-radius: 15px;
   box-shadow: 0 0 5px midnightblue;
-  -webkit-box-shadow: 0 0 5px midnightblue;
-}
+  -webkit-box-shadow: 0 0 5px midnightblue; }
 
 #pokemon img {
   display: block;
   height: auto;
   width: 35%;
   margin-top: -280px;
-  margin-left: 50px;
-}
+  margin-left: 50px; }
 
 #dewgong {
-  padding-top: -2px;
-  padding-left: 5px;
-}
+  padding-top: 10px;
+  padding-left: 5px; }
 
 #starmie {
-  padding-top: 7px;
-  padding-left: 4px;
-}
+  padding-top: -5px;
+  padding-left: 4px; }
 
 #marill {
-  padding-top: 50px;
-  padding-left: 6px;
-}
+  padding-top: 5px;
+  padding-left: 7px; }
 
 #speaker1 {
-  position: relative;
+  position: absolute;
   width: 75px;
   height: 25px;
   margin-left: 152px;
-  top: 215px;
-}
+  top: 700px; }
 
 #speaker2 {
   position: relative;
   width: 75px;
   height: 25px;
   left: 159px;
-  top: -1360px;
-}
+  top: -1360px; }
 
 .dot {
   height: 5px;
@@ -222,67 +199,61 @@
   background-color: #222;
   border-radius: 60%;
   -webkit-border-radius: 60%;
-  display: inline-block;
-}
+  display: inline-block; }
 
 #main-button {
   height: 100px;
   width: 100px;
   background-color: black;
-  position: relative;
-  top: 65px;
-  left: 138px;
+  position: absolute;
+  top: 578px;
+  left: 225px;
   border-radius: 100px;
   -webkit-border-radius: 100px;
   background: linear-gradient(top, #9da6b6 0%, #767881 80%);
   background: -webkit-linear-gradient(top, #9da6b6 0%, #767881 80%);
   box-shadow: -3px 2px #222;
-  -webkit-box-shadow: -3px 2px #222;
-}
+  -webkit-box-shadow: -3px 2px #222; }
 
 #upArrow {
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid rgb(63, 62, 62);
+  border-bottom: 10px solid #3F3E3E;
   position: relative;
   top: 9px;
-  left: 41px; 
-}
+  left: 41px; }
 
 #downArrow {
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid rgb(63, 62, 62);
+  border-top: 10px solid #3F3E3E;
   position: relative;
   bottom: -70px;
-  left: 40px; 
-}
+  left: 40px; }
 
 #leftArrow {
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
-  border-right: 10px solid rgb(63, 62, 62);
+  border-right: 10px solid #3F3E3E;
   border-bottom: 10px solid transparent;
   position: relative;
   top: 19px;
-  left: 9px; 
-}
+  left: 9px; }
 
 #rightArrow {
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
-  border-left: 10px solid rgb(63, 62, 62);
+  border-left: 10px solid #3F3E3E;
   border-bottom: 10px solid transparent;
   position: relative;
   top: -1px;
-  right: -82px; 
-}
+  right: -82px; }
 
 #homeCircle {
   width: 45px;
@@ -292,9 +263,8 @@
   left: 28px;
   border-radius: 30px;
   -webkit-border-radius: 30px;
-  background: radial-gradient(rgb(63, 62, 62), #222);
-  background: -webkit-radial-gradient(rgb(63, 62, 62), #222);
-}
+  background: radial-gradient(#3F3E3E, #222);
+  background: -webkit-radial-gradient(#3F3E3E, #222); }
 
 #right-curve1 {
   width: 216px;
@@ -305,8 +275,7 @@
   top: -1482;
   left: -134;
   border-top-right-radius: 85px 60px;
-  -webkit-border-right-left-radius: 85px 60px;
-}
+  -webkit-border-right-left-radius: 85px 60px; }
 
 #right-backgroundcurve1 {
   width: 360px;
@@ -315,8 +284,7 @@
   top: 0;
   position: relative;
   background-color: white;
-  clear: both;
-}
+  clear: both; }
 
 #right-curve2 {
   width: 216px;
@@ -327,8 +295,7 @@
   top: -1611;
   right: -184;
   border-bottom-left-radius: 85px 60px;
-  -webkit-border-bottom-left-radius: 85px 60px;
-}
+  -webkit-border-bottom-left-radius: 85px 60px; }
 
 #right-backgroundcurve2 {
   width: 400px;
@@ -340,8 +307,7 @@
   border-bottom-right-radius: 30px;
   -webkit-border-bottom-right-radius: 30px;
   box-shadow: -10px 9px midnightblue;
-  -webkit-box-shadow: -10px 9px midnightblue;
-}
+  -webkit-box-shadow: -10px 9px midnightblue; }
 
 #statistics {
   height: 430px;
@@ -355,16 +321,14 @@
   border-radius: 15px;
   -webkit-border-radius: 15px;
   box-shadow: 0 0 20px darkslategray inset;
-  -webkit-box-shadow: 0 0 20px darkslategray inset;
-}
+  -webkit-box-shadow: 0 0 20px darkslategray inset; }
 
-#text-container p{
+#text-container p {
   position: absolute;
   font-size: 20px;
   font-weight: bold;
   font-family: 'Gill Sans';
   color: #222;
-  padding: 6px;
-}
+  padding: 6px; }
 
 /*# sourceMappingURL=main.css.map */
