@@ -1,5 +1,4 @@
 @import 'colors';
-
 @media all {
 
 body {
@@ -131,19 +130,19 @@ body {
     background: -webkit-radial-gradient($lemonyellow, $yellow);
   }
 
-#miniButtonGlass3 {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  margin-top: 21px;
-  float: left;
-  box-shadow: 0 0 10px $midnightblue;
-  -webkit-box-shadow: 0 0 10px $midnightblue;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  background: radial-gradient($honeydewgreen, $greenapple);
-  background: -webkit-radial-gradient($honeydewgreen, $greenapple);
-}
+  #miniButtonGlass3 {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 21px;
+    float: left;
+    box-shadow: 0 0 10px $midnightblue;
+    -webkit-box-shadow: 0 0 10px $midnightblue;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background: radial-gradient($honeydewgreen, $greenapple);
+    background: -webkit-radial-gradient($honeydewgreen, $greenapple);
+  }
 
   #hinge {
     width: 35px;
@@ -190,26 +189,6 @@ body {
    width: 35%;
    margin-top: -280px;
    margin-left: 50px;
-   animation-name: flash;
-   -webkit-animation-name: flash;
-  
-    @keyframes flash {
-    from,
-    50%,
-    to {
-      opacity: 1;
-    }
-  
-    25%,
-    75% {
-      opacity: 0;
-    }
-    }
-  
-  .flash {
-    -webkit-animation-name: flash;
-    animation-name: flash;
-  }
  }
 
  #dewgong {
@@ -408,20 +387,7 @@ body {
       h1 {
         font-family: 'Gill Sans';
         text-align: center;
-        padding-top: 52px;
-        animation: flash;
-        @keyframes flash {
-          from,
-          50%,
-          to {
-            opacity: 1;
-          }
-        
-          25%,
-          75% {
-            opacity: 0;
-          }
-          }
+        padding-top: 52px;  
       }
   }
 }
