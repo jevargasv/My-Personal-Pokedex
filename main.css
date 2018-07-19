@@ -1,315 +1,43 @@
-@media all {
-  body {
-    display: block; }
-    body #pokedex {
-      width: 750px;
-      margin: 80px 80px; }
-    body #background-curve {
-      display: block; }
-    body #left-flap {
-      width: 400px;
-      height: 500px;
-      float: left;
-      position: relative;
-      z-index: 1; }
-    body #right-flap {
-      width: 350px;
-      height: 500px;
-      float: left;
-      position: relative; }
-    body #left-curve1 {
-      width: 245px;
-      height: 85px;
-      background-color: navy;
-      float: left;
-      padding: 15px 0 0 15px;
-      position: relative;
-      top: -1360;
-      right: 400;
-      box-shadow: -10px 9px midnightblue;
-      -webkit-box-shadow: -10px 9px midnightblue;
-      border-bottom-right-radius: 85px 60px;
-      -webkit-border-bottom-right-radius: 85px 60px;
-      border-top-left-radius: 30px;
-      -webkit-border-top-left-radius: 30px; }
-    body #left-backgroundcurve1 {
-      width: 403px;
-      height: 80px;
-      background-color: navy;
-      box-shadow: -10px 9px midnightblue;
-      -webkit-box-shadow: -10px 9px midnightblue;
-      border-top-left-radius: 30px;
-      -webkit-border-top-left-radius: 30px; }
-    body #left-curve2 {
-      width: 216px;
-      height: 80px;
-      background-color: mediumblue;
-      float: right;
-      position: relative;
-      bottom: 1387;
-      right: 348;
-      border-top-left-radius: 85px 60px;
-      -webkit-border-top-left-radius: 85px 60px; }
-    body #left-backgroundcurve2 {
-      width: 400px;
-      height: 600px;
-      background-color: mediumblue;
-      box-shadow: -10px 9px midnightblue;
-      -webkit-box-shadow: -10px 9px midnightblue;
-      border-bottom-left-radius: 30px;
-      -webkit-border-bottom-left-radius: 30px; }
-    body #buttonGlass {
-      width: 60px;
-      height: 60px;
-      margin-right: 15px;
-      margin-top: -2px;
-      border: 5px solid white;
-      float: left;
-      box-shadow: 0 0 10px midnightblue;
-      -webkit-box-shadow: 0 0 10px midnightblue;
-      background: radial-gradient(#05fbfb, #29abe3);
-      background: -webkit-radial-gradient(#05fbfb, #29abe3);
-      border-radius: 35px;
-      -webkit-border-radius: 35px; }
-    body #reflect {
-      width: 30px;
-      height: 18px;
-      margin: 3px 0 0 15px;
-      background: white;
-      opacity: 0.6;
-      border-radius: 15px 9px;
-      -webkit-border-radius: 15px 9px; }
-    body #miniButtonGlass1 {
-      width: 20px;
-      height: 20px;
-      margin-right: 10px;
-      margin-top: 21px;
-      float: left;
-      box-shadow: 0 0 10px midnightblue;
-      -webkit-box-shadow: 0 0 10px midnightblue;
-      border-radius: 20px;
-      -webkit-border-radius: 20px;
-      background: radial-gradient(#fb7b7b, #fb0505);
-      background: -webkit-radial-gradient(#fb7b7b, #fb0505); }
-    body #miniButtonGlass2 {
-      width: 20px;
-      height: 20px;
-      margin-right: 10px;
-      margin-top: 21px;
-      float: left;
-      box-shadow: 0 0 10px midnightblue;
-      -webkit-box-shadow: 0 0 10px midnightblue;
-      border-radius: 20px;
-      -webkit-border-radius: 20px;
-      background: radial-gradient(#fbfb9b, #fbfb05);
-      background: -webkit-radial-gradient(#fbfb9b, #fbfb05); }
-    body #miniButtonGlass3 {
-      width: 20px;
-      height: 20px;
-      margin-right: 10px;
-      margin-top: 21px;
-      float: left;
-      box-shadow: 0 0 10px midnightblue;
-      -webkit-box-shadow: 0 0 10px midnightblue;
-      border-radius: 20px;
-      -webkit-border-radius: 20px;
-      background: radial-gradient(#b0fb7b, #50fb05);
-      background: -webkit-radial-gradient(#b0fb7b, #50fb05); }
-    body #hinge {
-      width: 35px;
-      height: 622px;
-      float: right;
-      background: linear-gradient(left, navy 0%, mediumblue 50%, navy 100%);
-      background: -webkit-linear-gradient(left, navy 0%, mediumblue 50%, navy 100%); }
-    body #hinge1 {
-      height: 124px;
-      background-color: navy;
-      opacity: 0.3;
-      margin-top: 50px;
-      margin-bottom: 262px;
-      border-top: 2px solid midnightblue;
-      border-bottom: 2px solid midnightblue; }
-    body #hinge2 {
-      height: 124px;
-      background-color: navy;
-      opacity: 0.3;
-      border-top: 2px solid midnightblue;
-      border-bottom: 2px solid midnightblue; }
-    body #image-wrapper {
-      height: 300px;
-      width: 300px;
-      margin-top: -1208;
-      margin-left: 32;
-      background-color: white;
-      border: 3px solid #494949;
-      border-radius: 15px;
-      -webkit-border-radius: 15px;
-      box-shadow: 0 0 5px midnightblue;
-      -webkit-box-shadow: 0 0 5px midnightblue; }
-    body #pokemon img {
-      display: block;
-      height: auto;
-      width: 35%;
-      margin-top: -280px;
-      margin-left: 50px; }
-    body #dewgong {
-      padding-top: -2px;
-      padding-left: 5px; }
-    body #starmie {
-      padding-top: -7px;
-      padding-left: 4px; }
-    body #marill {
-      padding-top: 50px;
-      padding-left: 6px; }
-    body #speaker1 {
-      position: absolute;
-      width: 75px;
-      height: 25px;
-      margin-left: 152px;
-      top: 700px; }
-    body #speaker2 {
-      position: relative;
-      width: 75px;
-      height: 25px;
-      left: 159px;
-      top: -1371px; }
-    body .dot {
-      height: 5px;
-      width: 5px;
-      background-color: #222;
-      border-radius: 60%;
-      -webkit-border-radius: 60%;
-      display: inline-block; }
-    body #main-button {
-      height: 100px;
-      width: 100px;
-      background-color: black;
-      position: absolute;
-      top: 578px;
-      left: 218px;
-      border-radius: 100px;
-      -webkit-border-radius: 100px;
-      background: linear-gradient(top, #9da6b6 0%, #767881 80%);
-      background: -webkit-linear-gradient(top, #9da6b6 0%, #767881 80%);
-      box-shadow: -3px 2px #222;
-      -webkit-box-shadow: -3px 2px #222; }
-    body #upArrow {
-      width: 0;
-      height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-bottom: 10px solid #3F3E3E;
-      position: relative;
-      top: 9px;
-      left: 41px; }
-    body #downArrow {
-      width: 0;
-      height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-top: 10px solid #3F3E3E;
-      position: relative;
-      bottom: -70px;
-      left: 40px; }
-    body #leftArrow {
-      width: 0;
-      height: 0;
-      border-top: 10px solid transparent;
-      border-right: 10px solid #3F3E3E;
-      border-bottom: 10px solid transparent;
-      position: relative;
-      top: 19px;
-      left: 9px; }
-    body #rightArrow {
-      width: 0;
-      height: 0;
-      border-top: 10px solid transparent;
-      border-left: 10px solid #3F3E3E;
-      border-bottom: 10px solid transparent;
-      position: relative;
-      top: -1px;
-      right: -82px; }
-    body #homeCircle {
-      width: 45px;
-      height: 45px;
-      position: relative;
-      top: -33px;
-      left: 28px;
-      border-radius: 30px;
-      -webkit-border-radius: 30px;
-      background: radial-gradient(#3F3E3E, #222);
-      background: -webkit-radial-gradient(#3F3E3E, #222); }
-    body #right-curve1 {
-      width: 216px;
-      height: 78px;
-      background-color: mediumblue;
-      float: right;
-      position: relative;
-      top: -1467;
-      left: -132;
-      border-top-right-radius: 85px 60px;
-      -webkit-border-right-left-radius: 85px 60px; }
-    body #right-backgroundcurve1 {
-      width: 360px;
-      height: 80px;
-      margin-left: 400px;
-      top: 0;
-      position: relative;
-      background-color: white;
-      clear: both; }
-    body #right-curve2 {
-      width: 222px;
-      height: 100px;
-      background-color: white;
-      float: left;
-      position: relative;
-      top: -1602;
-      right: -178;
-      border-bottom-left-radius: 85px 60px;
-      -webkit-border-bottom-left-radius: 85px 60px; }
-    body #right-backgroundcurve2 {
-      width: 400px;
-      height: 600px;
-      position: relative;
-      top: -680;
-      left: 400;
-      background-color: mediumblue;
-      border-bottom-right-radius: 30px;
-      -webkit-border-bottom-right-radius: 30px;
-      box-shadow: -10px 9px midnightblue;
-      -webkit-box-shadow: -10px 9px midnightblue; }
-    body #statistics {
-      height: 486px;
-      width: 306px;
-      padding: 6px;
-      background-color: lightgray;
-      z-index: 1;
-      position: relative;
-      top: -1383;
-      left: 45px;
-      border-radius: 15px;
-      -webkit-border-radius: 15px;
-      box-shadow: 0 0 20px darkslategray inset;
-      -webkit-box-shadow: 0 0 20px darkslategray inset; }
-    body #text-container p {
-      position: absolute;
-      font-size: 20px;
-      font-weight: bold;
-      font-family: 'Gill Sans';
-      color: #222;
-      padding: 7px; }
-    body .col-md-4 {
-      height: 200px;
-      width: 400px;
-      background-color: skyblue;
-      bottom: -25px;
-      left: 890px;
-      position: absolute;
-      box-shadow: 5px 5px #222;
-      -webkit-box-shadow: 5px 5px #222; }
-      body .col-md-4 h1 {
-        font-family: 'Gill Sans';
-        text-align: center;
-        padding-top: 52px; } }
+/*
+Error: Invalid CSS after "...x-width: 768px)": expected "{", was ">>>>>>> 931fb0a..."
+        on line 1048 of /Users/nycda/WDF/w04/d15/Classwork/second_project/main.scss
 
-/*# sourceMappingURL=main.css.map */
+1043:   color: #222;
+1044:   padding: 6px;
+1045: 
+1046: @media handheld and (orientation: portrait), (max-width: 768px)
+1047: 
+1048: >>>>>>> 931fb0ad812ce0445103806a79c9e176f12336e4
+
+Backtrace:
+/Users/nycda/WDF/w04/d15/Classwork/second_project/main.scss:1048
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:421:in `media_directive'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:234:in `special_directive'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:209:in `directive'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/private/var/folders/9j/91lr318j0gq90s581cz3yf000000gn/T/AppTranslocation/6C398F3A-481D-4D53-9A9A-B64FF8392BA5/d/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...x-width: 768px)\": expected \"{\", was \">>>>>>> 931fb0a...\"\A         on line 1048 of /Users/nycda/WDF/w04/d15/Classwork/second_project/main.scss\A \A 1043:   color: #222;\A 1044:   padding: 6px;\A 1045: \A 1046: @media handheld and (orientation: portrait), (max-width: 768px)\A 1047: \A 1048: >>>>>>> 931fb0ad812ce0445103806a79c9e176f12336e4"; }
