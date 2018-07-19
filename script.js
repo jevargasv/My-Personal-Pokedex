@@ -133,7 +133,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/183/").then((response) => {
         abilityOne.innerText = capitalize(MadameZapphir.pokemon[i].abilityOne) + ',';
         abilityTwo.innerText = capitalize(MadameZapphir.pokemon[i].abilityTwo) + ',';
         abilityThree.innerText = capitalize(MadameZapphir.pokemon[i].abilityThree) + ',';
-        abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour) + ',';
+        abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour);
         img.src = MadameZapphir.pokemon[i].name + ".png"
     })
     leftArrow.addEventListener('click', () => {
@@ -169,7 +169,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/183/").then((response) => {
         abilityOne.innerText = capitalize(MadameZapphir.pokemon[i].abilityOne) + ',';
         abilityTwo.innerText = capitalize(MadameZapphir.pokemon[i].abilityTwo) + ',';
         abilityThree.innerText = capitalize(MadameZapphir.pokemon[i].abilityThree) + ',';
-        abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour) + ',';
+        abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour);
         img.src = MadameZapphir.pokemon[i].name + ".png"
     })
     downArrow.addEventListener('click', () => {
@@ -190,7 +190,6 @@ axios.get("https://pokeapi.co/api/v2/pokemon/183/").then((response) => {
         abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour);
         img.src = MadameZapphir.pokemon[i].name + ".png"
     })
-    
     
     function capitalize(str) {
         return str.charAt(0).toUpperCase() + str.slice(1);
