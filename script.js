@@ -69,7 +69,6 @@ axios.get("https://pokeapi.co/api/v2/pokemon/87").then((response) => {
         response.data.abilities[2].ability.name,
         response.data.moves[2].move.name,
     )
-    // MadameZapphir.pokemon.push(data);
     MadameZapphir.add(dewgong);
     console.log(dewgong);
 });
@@ -155,8 +154,45 @@ axios.get("https://pokeapi.co/api/v2/pokemon/183/").then((response) => {
         abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour);
         img.src = MadameZapphir.pokemon[i].name + ".png"
     })
+    upArrow.addEventListener('click', () => {
+        // catch i if its over the last index, and return to start
+        console.log(MadameZapphir.pokemon[0].image);
+        i++;
+        if (i >= 3) {
+            i = 0;
+        }
+        id.innerText = '#' + MadameZapphir.pokemon[i].id;
+        name.innerText = capitalize(MadameZapphir.pokemon[i].name);
+        hp.innerText = 'HP: ' + MadameZapphir.pokemon[i].hp;
+        attack.innerText = 'Attack: ' + MadameZapphir.pokemon[i].attack;
+        defense.innerText = 'Defense: ' + MadameZapphir.pokemon[i].defense;
+        abilityOne.innerText = capitalize(MadameZapphir.pokemon[i].abilityOne) + ',';
+        abilityTwo.innerText = capitalize(MadameZapphir.pokemon[i].abilityTwo) + ',';
+        abilityThree.innerText = capitalize(MadameZapphir.pokemon[i].abilityThree) + ',';
+        abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour) + ',';
+        img.src = MadameZapphir.pokemon[i].name + ".png"
+    })
+    downArrow.addEventListener('click', () => {
+        // catch i if its under the first index, and return to end
+        console.log(i);
+        i--;
+        if (i < 0) {
+            i = 2;
+        }
+        id.innerText = '#' + MadameZapphir.pokemon[i].id;
+        name.innerText = capitalize(MadameZapphir.pokemon[i].name);
+        hp.innerText = 'HP: ' + MadameZapphir.pokemon[i].hp;
+        attack.innerText = 'Attack: ' + MadameZapphir.pokemon[i].attack;
+        defense.innerText = 'Defense: ' + MadameZapphir.pokemon[i].defense;
+        abilityOne.innerText = capitalize(MadameZapphir.pokemon[i].abilityOne) + ',';
+        abilityTwo.innerText = capitalize(MadameZapphir.pokemon[i].abilityTwo) + ',';
+        abilityThree.innerText = capitalize(MadameZapphir.pokemon[i].abilityThree) + ',';
+        abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour);
+        img.src = MadameZapphir.pokemon[i].name + ".png"
+    })
     
     
     function capitalize(str) {
         return str.charAt(0).toUpperCase() + str.slice(1);
     }
+
