@@ -1,4 +1,6 @@
 //Pokemon API
+
+//DOM Elements
 let img = document.getElementById('image');
 let upArrow = document.getElementById('upArrow');
 let downArrow = document.getElementById('downArrow');
@@ -15,6 +17,7 @@ let abilityTwo = document.getElementById('two');
 let abilityThree = document.getElementById('three');
 let abilityFour = document.getElementById('four');
 
+//Classes
 class Pokemon {
     constructor(id, name, hp, attack, defense, abilityOne, abilityTwo, abilityThree, abilityFour) {
         this.id = id;
