@@ -170,9 +170,7 @@
       height: auto;
       width: 35%;
       margin-top: -280px;
-      margin-left: 50px;
-      animation-duration: 1s;
-      animation-fill-mode: both; }
+      margin-left: 50px; }
     body #speaker1 {
       position: absolute;
       width: 75px;
