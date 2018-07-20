@@ -190,7 +190,9 @@ axios.get("https://pokeapi.co/api/v2/pokemon/183/").then((response) => {
         abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour);
         img.src = MadameZapphir.pokemon[i].name + ".png"
     })
-    
+    homeCircle.addEventListener('click', () => {
+        window.location.reload();
+    })  
     function capitalize(str) {
         return str.charAt(0).toUpperCase() + str.slice(1);
     }
