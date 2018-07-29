@@ -11,16 +11,22 @@ This is the second project for the WDF June 2018 Cohort. This is to create a Pok
 
 # Special Thanks to:
 
-**Dewgong**
+**Dewgong,**
 
 ![dewgong-alt-tag](https://media.giphy.com/media/5P9YWz9O2yiha/giphy.gif)
 
-**Starmie**
+**Starmie,**
 
 ![starmie-alt-tag](https://media.giphy.com/media/rKgCZ5OYq0iQ/giphy.gif)
 
-**Marill**
+**Marill,**
 
 ![marill-alt-tag](https://pa1.narvii.com/6302/11d53998b4ccc036a3984c25f9ebbcb775b289f4_hq.gif)
 
+**and Madame Zapphir, the sassy Pokemon trainer, of course!**
 
+![mmezapphir-alt-tag](https://media.giphy.com/media/3o7btXe9dz6jxVBbby/giphy.gif)
+
+# Authors:
+
+- Jennifer Vargas of NYCDA, July 12, 2018
