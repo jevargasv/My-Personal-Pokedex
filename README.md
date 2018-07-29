@@ -11,5 +11,5 @@ This is the second project for the WDF June 2018 Cohort. This is to create a Pok
 
 # Special Thanks to:
 
-[dewgong.gif]
+https://media.giphy.com/media/5P9YWz9O2yiha/giphy.gif
 
