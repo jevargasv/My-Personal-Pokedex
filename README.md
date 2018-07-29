@@ -29,4 +29,4 @@ This is the second project for the WDF June 2018 Cohort. This is to create a Pok
 
 # Authors:
 
-- Jennifer Vargas of NYCDA, July 12, 2018
+- Jennifer Vargas of NYCDA, July 19, 2018
