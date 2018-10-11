@@ -6,7 +6,7 @@ This is the second project for the WDF June 2018 Cohort. This is to create a Pok
 
 - HTML - Website Structure
 - CSS/SASS - Design
-- JavaScript (DOM, AJAX/API, OOP) - Functions and Data Display
+- JavaScript (DOM, AJAX, API, OOP) - Functions and Data Display
 - Bootstrap - Grid Layout
 
 # Special Thanks to:
