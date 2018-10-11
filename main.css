@@ -3,7 +3,7 @@
     display: block; }
     body #pokedex {
       width: 750px;
-      margin: 80px 80px; }
+      margin: 80px auto; }
     body #background-curve {
       display: block; }
       body #background-curve #left-backgroundcurve1 {
@@ -196,7 +196,7 @@
       background-color: black;
       position: absolute;
       top: 578px;
-      left: 218px;
+      left: 604px;
       border-radius: 100px;
       -webkit-border-radius: 100px;
       background: linear-gradient(top, #9da6b6 0%, #767881 80%);
@@ -288,19 +288,6 @@
       font-weight: bold;
       font-family: 'Gill Sans';
       color: #222;
-      padding: 7px; }
-    body .col-md-4 {
-      height: 200px;
-      width: 400px;
-      background-color: skyblue;
-      bottom: -25px;
-      left: 890px;
-      position: absolute;
-      box-shadow: 5px 5px #222;
-      -webkit-box-shadow: 5px 5px #222; }
-      body .col-md-4 h1 {
-        font-family: 'Gill Sans';
-        text-align: center;
-        padding-top: 52px; } }
+      padding: 7px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -57,7 +57,7 @@ class Trainer {
 let MadameZapphir = new Trainer('Madame Zapphir');
     
 //Pokemon #1: Dewgong
-axios.get("https://pokeapi.co/api/v2/pokemon/87").then((response) => {
+axios.get("https://pokeapi.co/api/v2/pokemon/87/").then((response) => {
     let data = response.data;
     console.log(data);
 
@@ -119,9 +119,9 @@ axios.get("https://pokeapi.co/api/v2/pokemon/183/").then((response) => {
 });
 //Selecting Pokemon
     let i = 0;
-    let arr = ["Marill.png", "Starmie.png", "Dewgong.png"]
+    let arr = ["marill.png", "starmie.png", "dewgong.png"]
 
-    rightArrow.addEventListener('click', () => {
+    rightArrow.addEventListener('click', (e) => {
         // catch i if its over the last index, and return to start
         console.log(MadameZapphir.pokemon[0].image);
         i++;
@@ -139,7 +139,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/183/").then((response) => {
         abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour);
         img.src = MadameZapphir.pokemon[i].name + ".png"
     })
-    leftArrow.addEventListener('click', () => {
+    leftArrow.addEventListener('click', (e) => {
         // catch i if its under the first index, and return to end
         console.log(i);
         i--;
@@ -157,7 +157,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/183/").then((response) => {
         abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour);
         img.src = MadameZapphir.pokemon[i].name + ".png"
     })
-    upArrow.addEventListener('click', () => {
+    upArrow.addEventListener('click', (e) => {
         // catch i if its over the last index, and return to start
         console.log(MadameZapphir.pokemon[0].image);
         i++;
@@ -175,7 +175,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/183/").then((response) => {
         abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour);
         img.src = MadameZapphir.pokemon[i].name + ".png"
     })
-    downArrow.addEventListener('click', () => {
+    downArrow.addEventListener('click', (e) => {
         // catch i if its under the first index, and return to end
         console.log(i);
         i--;
@@ -193,7 +193,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/183/").then((response) => {
         abilityFour.innerText = capitalize(MadameZapphir.pokemon[i].abilityFour);
         img.src = MadameZapphir.pokemon[i].name + ".png"
     })
-    homeCircle.addEventListener('click', () => {
+    homeCircle.addEventListener('click', (e) => {
         window.location.reload();
     })  
     function capitalize(str) {
